@@ -1,0 +1,18 @@
+{
+    "name": "Reddit Preview",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Preview reddit links",
+    "content_scripts": [
+    {
+      "matches": ["http://www.reddit.com/*"],
+      "css":["styles.css"],
+      "js":["jquery-1.9.1.js", "preview.js"],
+      "run_at":"document_start"
+    }
+    ],
+    "browser_action":{
+        "default_icon":"icon_reddit.gif"
+    }
+
+}

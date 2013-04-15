@@ -1,0 +1,14 @@
+#redditpreview {
+  background: #eee;
+  border-radius: 10px;
+  background-image: url('ajax-loader.gif');
+  background-position: top left;
+  width: 500px;
+  height: 550px;
+  padding: 20px;
+}
+
+.notice {
+  font-size: 10px;
+  color: #999;
+}
